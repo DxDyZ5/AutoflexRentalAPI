@@ -1,0 +1,349 @@
+[
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "GetContactMessageList",
+    "RelativePath": "api/CRUD/contactMessages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "AddContactMessage",
+    "RelativePath": "api/CRUD/contactMessages",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "autoFlexrentalBackend.DTO.ContactMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "GetContactMessageById",
+    "RelativePath": "api/CRUD/contactMessages/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "UpdateContactMessage",
+    "RelativePath": "api/CRUD/contactMessages/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "message",
+        "Type": "autoFlexrentalBackend.DTO.ContactMessageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "DeleteContactMessage",
+    "RelativePath": "api/CRUD/contactMessages/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "GetReservationList",
+    "RelativePath": "api/CRUD/reservations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "AddReservation",
+    "RelativePath": "api/CRUD/reservations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservation",
+        "Type": "autoFlexrentalBackend.DTO.ReservationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "GetReservationById",
+    "RelativePath": "api/CRUD/reservations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "UpdateReservation",
+    "RelativePath": "api/CRUD/reservations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reservation",
+        "Type": "autoFlexrentalBackend.DTO.ReservationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "DeleteReservation",
+    "RelativePath": "api/CRUD/reservations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "GetUserList",
+    "RelativePath": "api/CRUD/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "AddUser",
+    "RelativePath": "api/CRUD/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "autoFlexrentalBackend.DTO.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "GetUserById",
+    "RelativePath": "api/CRUD/users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/CRUD/users/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "autoFlexrentalBackend.DTO.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/CRUD/users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "GetVehicleList",
+    "RelativePath": "api/CRUD/vehicles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "AddVehicle",
+    "RelativePath": "api/CRUD/vehicles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehicle",
+        "Type": "autoFlexrentalBackend.DTO.VehicleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "GetVehicleById",
+    "RelativePath": "api/CRUD/vehicles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "UpdateVehicle",
+    "RelativePath": "api/CRUD/vehicles/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vehicle",
+        "Type": "autoFlexrentalBackend.DTO.VehicleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "DeleteVehicle",
+    "RelativePath": "api/CRUD/vehicles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.VehicleSearchController",
+    "Method": "SearchVehicles",
+    "RelativePath": "api/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "model",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "minPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxPrice",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
