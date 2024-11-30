@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\autoFlexrentalBackend\\autoFlexrentalBackend.csproj": {}
+    "C:\\Users\\DELL\\Source\\Repos\\AutoflexRentalAPI\\autoFlexrentalBackend\\autoFlexrentalBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\autoFlexrentalBackend\\autoFlexrentalBackend.csproj": {
+    "C:\\Users\\DELL\\Source\\Repos\\AutoflexRentalAPI\\autoFlexrentalBackend\\autoFlexrentalBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\autoFlexrentalBackend\\autoFlexrentalBackend.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\AutoflexRentalAPI\\autoFlexrentalBackend\\autoFlexrentalBackend.csproj",
         "projectName": "autoFlexrentalBackend",
-        "projectPath": "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\autoFlexrentalBackend\\autoFlexrentalBackend.csproj",
-        "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\autoFlexrentalBackend\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\AutoflexRentalAPI\\autoFlexrentalBackend\\autoFlexrentalBackend.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\AutoflexRentalAPI\\autoFlexrentalBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\manue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -63,6 +63,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

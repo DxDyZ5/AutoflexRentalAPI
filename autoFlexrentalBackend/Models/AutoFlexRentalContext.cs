@@ -26,6 +26,8 @@ public partial class AutoFlexRentalContext : DbContext
     public virtual DbSet<User> Users { get; set; }
 
     public virtual DbSet<Vehicle> Vehicles { get; set; }
+    public virtual  DbSet<WhyChooseUs> WhyChooseUsItems { get; set; } //nuevo
+
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSqlServer("Name=AppConnection");
@@ -146,6 +148,17 @@ public partial class AutoFlexRentalContext : DbContext
             entity.Property(e => e.DailyPrice).HasColumnType("decimal(10, 2)");
             entity.Property(e => e.ImageUrl).HasMaxLength(255);
             entity.Property(e => e.Model).HasMaxLength(50);
+        });
+
+        modelBuilder.Entity<WhyChooseUs>(entity =>
+        {
+            entity.HasKey(e => e.Id);
+            entity.Property(e => e.Title)
+                .IsRequired()
+                .HasMaxLength(100); 
+            entity.Property(e => e.Description)
+                .IsRequired()
+                .HasMaxLength(500); 
         });
 
         OnModelCreatingPartial(modelBuilder);

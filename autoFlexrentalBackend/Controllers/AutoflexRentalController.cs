@@ -214,6 +214,60 @@ namespace autoFlexrentalBackend.Controllers
             _service.DeleteContactMessage(message);
             return NoContent();
         }
+
+        // Why Choose Us
+        [HttpGet("whyChooseUs")]
+        public IActionResult GetWhyChooseUsList()
+        {
+            var items = _service.GetAllWhyChooseUsItems();
+            return Ok(items);
+        }
+
+        [HttpGet("whyChooseUs/{id}")]
+        public IActionResult GetWhyChooseUsById(int id)
+        {
+            var item = _service.GetWhyChooseUsById(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            return Ok(item);
+        }
+
+        [HttpPost("whyChooseUs")]
+        public IActionResult AddWhyChooseUs([FromBody] WhyChooseUsDto itemDto)
+        {
+            var createdItem = _service.AddWhyChooseUsItem(itemDto);
+            return CreatedAtAction(nameof(GetWhyChooseUsById), new { id = createdItem.Id }, createdItem);
+        }
+
+        [HttpPut("whyChooseUs/{id}")]
+        public IActionResult UpdateWhyChooseUs(int id, [FromBody] WhyChooseUsDto itemDto)
+        {
+            var existingItem = _service.GetWhyChooseUsById(id);
+            if (existingItem == null)
+            {
+                return NotFound();
+            }
+
+            itemDto.Id = id;
+            _service.UpdateWhyChooseUsItem(itemDto);
+            return Ok(itemDto);
+        }
+
+        [HttpDelete("whyChooseUs/{id}")]
+        public IActionResult DeleteWhyChooseUs(int id)
+        {
+            var item = _service.GetWhyChooseUsById(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+
+            _service.DeleteWhyChooseUsItem(id);
+            return NoContent();
+        }
+
     }
 }
     

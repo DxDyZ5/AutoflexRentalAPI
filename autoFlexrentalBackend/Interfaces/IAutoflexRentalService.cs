@@ -28,6 +28,13 @@ namespace autoFlexrentalBackend.Interfaces
         void UpdateContactMessage(ContactMessageDto message);
         void DeleteContactMessage(ContactMessageDto message);
 
+        
+
+        IEnumerable<WhyChooseUsDto> GetAllWhyChooseUsItems();
+        WhyChooseUsDto GetWhyChooseUsById(int id);
+        WhyChooseUsDto AddWhyChooseUsItem(WhyChooseUsDto itemDto);
+        void UpdateWhyChooseUsItem(WhyChooseUsDto itemDto);
+        void DeleteWhyChooseUsItem(int id);
         // Estos seran agregados en un futuro
 
         //IEnumerable<NotificationDto> GetAllNotifications();

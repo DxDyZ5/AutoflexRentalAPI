@@ -316,6 +316,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "GetWhyChooseUsList",
+    "RelativePath": "api/CRUD/whyChooseUs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "AddWhyChooseUs",
+    "RelativePath": "api/CRUD/whyChooseUs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemDto",
+        "Type": "autoFlexrentalBackend.DTO.WhyChooseUsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "GetWhyChooseUsById",
+    "RelativePath": "api/CRUD/whyChooseUs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "UpdateWhyChooseUs",
+    "RelativePath": "api/CRUD/whyChooseUs/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "itemDto",
+        "Type": "autoFlexrentalBackend.DTO.WhyChooseUsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "autoFlexrentalBackend.Controllers.AutoflexRentalController",
+    "Method": "DeleteWhyChooseUs",
+    "RelativePath": "api/CRUD/whyChooseUs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "autoFlexrentalBackend.Controllers.VehicleSearchController",
     "Method": "SearchVehicles",
     "RelativePath": "api/Search",

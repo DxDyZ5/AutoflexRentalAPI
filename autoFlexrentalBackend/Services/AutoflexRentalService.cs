@@ -288,6 +288,76 @@ namespace autoFlexrentalBackend.Services
             _context.ContactMessages.Remove(message);
             _context.SaveChanges();
         }
+
+        // WHY CHOOSE US
+        public IEnumerable<WhyChooseUsDto> GetAllWhyChooseUsItems()
+        {
+            return _context.WhyChooseUsItems.Select(item => new WhyChooseUsDto
+            {
+                Id = item.Id,
+                Title = item.Title,
+                Description = item.Description
+            }).ToList();
+        }
+
+
+        public WhyChooseUsDto GetWhyChooseUsById(int id)
+        {
+            var item = _context.WhyChooseUsItems.Find(id);
+            if (item == null) return null;
+
+            return new WhyChooseUsDto
+            {
+                Id = item.Id,
+                Title = item.Title,
+                Description = item.Description
+            };
+        }
+
+
+        public WhyChooseUsDto AddWhyChooseUsItem(WhyChooseUsDto itemDto)
+        {
+            var newItem = new WhyChooseUs
+            {
+                Title = itemDto.Title,
+                Description = itemDto.Description
+            };
+
+            _context.WhyChooseUsItems.Add(newItem);
+            _context.SaveChanges();
+
+            return new WhyChooseUsDto
+            {
+                Id = newItem.Id,
+                Title = newItem.Title,
+                Description = newItem.Description
+            };
+        }
+
+
+        public void UpdateWhyChooseUsItem(WhyChooseUsDto itemDto)
+        {
+            var item = _context.WhyChooseUsItems.Find(itemDto.Id);
+            if (item != null)
+            {
+                item.Title = itemDto.Title;
+                item.Description = itemDto.Description;
+               
+
+                _context.SaveChanges();
+            }
+        }
+
+        public void DeleteWhyChooseUsItem(int id)
+        {
+            var item = _context.WhyChooseUsItems.Find(id);
+            if (item != null)
+            {
+                _context.WhyChooseUsItems.Remove(item);
+                _context.SaveChanges();
+            }
+        }
+
     }
 }
 
