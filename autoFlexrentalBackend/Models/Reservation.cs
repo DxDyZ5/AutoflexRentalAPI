@@ -19,6 +19,8 @@ public partial class Reservation
 
     public string? Status { get; set; }
 
+    public string? Extras { get; set; } 
+
     public DateTime? CreatedAt { get; set; }
 
     public virtual User User { get; set; } = null!;

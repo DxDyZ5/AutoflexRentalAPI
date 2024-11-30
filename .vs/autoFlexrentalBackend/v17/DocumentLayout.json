@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\",
+  "WorkspaceRootPath": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\manue\\source\\repos\\autoflexrentalbackend\\autoflexrentalbackend\\controllers\\autoflexrentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\controllers\\autoflexrentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\autoflexrentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Notification.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:15:26.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Reservation.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:15:01.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationDto.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\ReservationDto.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\DTO\\ReservationDto.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\ReservationDto.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\DTO\\ReservationDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:04:00.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AutoflexRentalController.cs",
-              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
               "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
-              "ToolTip": "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
               "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswFAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T23:05:19.73Z",
               "EditorCaption": ""
