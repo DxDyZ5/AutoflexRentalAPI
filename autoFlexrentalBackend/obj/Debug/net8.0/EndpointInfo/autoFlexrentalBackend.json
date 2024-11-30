@@ -79,7 +79,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       }
     },
     "/api/CRUD/users/{id}": {
@@ -147,7 +152,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       },
       "delete": {
         "tags": [
@@ -168,7 +178,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       }
     },
     "/api/CRUD/vehicles": {
@@ -180,7 +195,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       },
       "post": {
         "tags": [
@@ -209,7 +229,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       }
     },
     "/api/CRUD/vehicles/{id}": {
@@ -277,7 +302,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       },
       "delete": {
         "tags": [
@@ -298,7 +328,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       }
     },
     "/api/CRUD/reservations": {
@@ -310,7 +345,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       },
       "post": {
         "tags": [
@@ -339,7 +379,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       }
     },
     "/api/CRUD/reservations/{id}": {
@@ -362,7 +407,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       },
       "put": {
         "tags": [
@@ -402,7 +452,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       },
       "delete": {
         "tags": [
@@ -423,7 +478,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       }
     },
     "/api/CRUD/contactMessages": {
@@ -435,7 +495,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       },
       "post": {
         "tags": [
@@ -464,7 +529,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       }
     },
     "/api/CRUD/contactMessages/{id}": {
@@ -487,7 +557,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       },
       "put": {
         "tags": [
@@ -527,7 +602,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       },
       "delete": {
         "tags": [
@@ -548,7 +628,12 @@
           "200": {
             "description": "OK"
           }
-        }
+        },
+        "security": [
+          {
+            "token": [ ]
+          }
+        ]
       }
     },
     "/api/CRUD/whyChooseUs": {
@@ -724,6 +809,11 @@
   "components": {
     "schemas": {
       "ContactMessageDto": {
+        "required": [
+          "email",
+          "fullName",
+          "message"
+        ],
         "type": "object",
         "properties": {
           "messageId": {
@@ -731,20 +821,22 @@
             "format": "int32"
           },
           "fullName": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "email": {
+            "minLength": 1,
             "type": "string",
-            "nullable": true
+            "format": "email"
           },
           "phoneNumber": {
             "type": "string",
+            "format": "tel",
             "nullable": true
           },
           "message": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "status": {
             "type": "string",
@@ -767,7 +859,8 @@
         "properties": {
           "email": {
             "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "format": "email"
           },
           "password": {
             "minLength": 1,
@@ -777,6 +870,12 @@
         "additionalProperties": false
       },
       "ReservationDto": {
+        "required": [
+          "endDate",
+          "startDate",
+          "userId",
+          "vehicleId"
+        ],
         "type": "object",
         "properties": {
           "reservationId": {
@@ -800,6 +899,7 @@
             "format": "date-time"
           },
           "totalPrice": {
+            "minimum": 0,
             "type": "number",
             "format": "double"
           },
@@ -816,6 +916,12 @@
         "additionalProperties": false
       },
       "UserDto": {
+        "required": [
+          "email",
+          "fullName",
+          "passwordHash",
+          "role"
+        ],
         "type": "object",
         "properties": {
           "userId": {
@@ -823,24 +929,26 @@
             "format": "int32"
           },
           "fullName": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "email": {
+            "minLength": 1,
             "type": "string",
-            "nullable": true
+            "format": "email"
           },
           "phoneNumber": {
             "type": "string",
+            "format": "tel",
             "nullable": true
           },
           "passwordHash": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "role": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
@@ -851,6 +959,12 @@
         "additionalProperties": false
       },
       "VehicleDto": {
+        "required": [
+          "availability",
+          "brand",
+          "dailyPrice",
+          "model"
+        ],
         "type": "object",
         "properties": {
           "vehicleId": {
@@ -858,20 +972,20 @@
             "format": "int32"
           },
           "brand": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "model": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "dailyPrice": {
+            "minimum": 0,
             "type": "number",
             "format": "double"
           },
           "availability": {
-            "type": "boolean",
-            "nullable": true
+            "type": "boolean"
           },
           "imageUrl": {
             "type": "string",
