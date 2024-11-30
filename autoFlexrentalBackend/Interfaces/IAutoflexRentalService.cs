@@ -32,19 +32,12 @@ namespace autoFlexrentalBackend.Interfaces
         void UpdateContactMessage(ContactMessageDto message);
         void DeleteContactMessage(ContactMessageDto message);
 
-<<<<<<< HEAD
-=======
-        
->>>>>>> 2a7ce2fdf28ba947ece1f3f645a458d84de1a01e
+        //WHY CHOOSE US
         IEnumerable<WhyChooseUsDto> GetAllWhyChooseUsItems();
         WhyChooseUsDto GetWhyChooseUsById(int id);
         WhyChooseUsDto AddWhyChooseUsItem(WhyChooseUsDto itemDto);
         void UpdateWhyChooseUsItem(WhyChooseUsDto itemDto);
         void DeleteWhyChooseUsItem(int id);
-<<<<<<< HEAD
 
-=======
-        
->>>>>>> 2a7ce2fdf28ba947ece1f3f645a458d84de1a01e
     }
 }
