@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\manue\\source\\repos\\autoflexrentalbackend\\autoflexrentalbackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\manue\\source\\repos\\autoflexrentalbackend\\autoflexrentalbackend\\controllers\\autoflexrentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\autoflexrentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\manue\\source\\repos\\autoflexrentalbackend\\autoflexrentalbackend\\controllers\\vehiclesearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\vehiclesearchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "VehicleSearchController.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\autoFlexrentalBackend\\Controllers\\VehicleSearchController.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\VehicleSearchController.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\autoFlexrentalBackend\\Controllers\\VehicleSearchController.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\VehicleSearchController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:14:39.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AutoflexRentalController.cs",
               "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
               "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
               "ToolTip": "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
               "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T23:05:19.73Z",
+              "WhenOpened": "2024-11-29T17:14:38.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\autoFlexrentalBackend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\autoFlexrentalBackend\\autoFlexrentalBackend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:14:37.973Z",
               "EditorCaption": ""
             }
           ]

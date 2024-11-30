@@ -14,7 +14,7 @@ namespace autoFlexrentalBackend.Controllers
             _vehicleSearchService = vehicleSearchService;
         }
 
-        // Endpoint para búsqueda avanzada de vehículos
+        // Advance search Endpoint vehicles Service
         [HttpGet]
         public IActionResult SearchVehicles(
             [FromQuery] string? brand = null,
@@ -22,16 +22,16 @@ namespace autoFlexrentalBackend.Controllers
             [FromQuery] decimal? minPrice = null,
             [FromQuery] decimal? maxPrice = null)
         {
-            // Obtener la lista de vehículos filtrados
+            // Fetch the vehicles list filtered
             var vehicles = _vehicleSearchService.SearchVehicles(brand, model, minPrice, maxPrice);
 
-            // Si no se encuentran vehículos
+            // If doesn't find any
             if (vehicles == null || !vehicles.Any())
             {
                 return NotFound("No vehicles found with the given search criteria.");
             }
 
-            return Ok(vehicles); // Devolver los vehículos filtrados
+            return Ok(vehicles); // Return the vehicles filtered
         }
     }
 }

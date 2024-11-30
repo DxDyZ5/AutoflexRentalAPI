@@ -16,25 +16,25 @@ namespace autoFlexrentalBackend.Services
         {
             var query = _context.Vehicles.AsQueryable();
 
-            // Filtrar por marca
+            // Filter by brand
             if (!string.IsNullOrEmpty(brand))
             {
                 query = query.Where(v => v.Brand.Contains(brand));
             }
 
-            // Filtrar por modelo
+            // Filter by model
             if (!string.IsNullOrEmpty(model))
             {
                 query = query.Where(v => v.Model.Contains(model));
             }
 
-            // Filtrar por precio mínimo (DailyPrice)
+            // Filter by minimum price (DailyPrice)
             if (minPrice.HasValue)
             {
                 query = query.Where(v => v.DailyPrice >= minPrice.Value);
             }
 
-            // Filtrar por precio máximo (DailyPrice)
+            // Filter by maximum price  (DailyPrice)
             if (maxPrice.HasValue)
             {
                 query = query.Where(v => v.DailyPrice <= maxPrice.Value);

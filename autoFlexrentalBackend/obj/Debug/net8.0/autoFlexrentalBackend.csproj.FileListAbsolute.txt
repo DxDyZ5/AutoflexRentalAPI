@@ -138,3 +138,5 @@ C:\Users\manue\source\repos\autoFlexrentalBackend\autoFlexrentalBackend\obj\Debu
 C:\Users\manue\source\repos\autoFlexrentalBackend\autoFlexrentalBackend\obj\Debug\net8.0\autoFlexrentalBackend.pdb
 C:\Users\manue\source\repos\autoFlexrentalBackend\autoFlexrentalBackend\obj\Debug\net8.0\autoFlexrentalBackend.genruntimeconfig.cache
 C:\Users\manue\source\repos\autoFlexrentalBackend\autoFlexrentalBackend\obj\Debug\net8.0\ref\autoFlexrentalBackend.dll
+C:\Users\manue\source\repos\autoFlexrentalBackend\autoFlexrentalBackend\obj\Debug\net8.0\autoFlexrentalBackend.sourcelink.json
+C:\Users\manue\source\repos\autoFlexrentalBackend\autoFlexrentalBackend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

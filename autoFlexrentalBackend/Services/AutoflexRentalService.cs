@@ -1,4 +1,5 @@
-﻿using autoFlexrentalBackend.DTO;
+﻿using autoFlexrentalBackend.Custom;
+using autoFlexrentalBackend.DTO;
 using autoFlexrentalBackend.Interfaces;
 using autoFlexrentalBackend.Models;
 
@@ -7,10 +8,11 @@ namespace autoFlexrentalBackend.Services
     public class AutoflexRentalService : IAutoflexRentalService
     {
         private readonly AutoFlexRentalContext _context;
-
-        public AutoflexRentalService(AutoFlexRentalContext context)
+        private readonly Utilities _utilities;
+        public AutoflexRentalService(AutoFlexRentalContext context, Utilities utilities)
         {
             _context = context;
+            _utilities = utilities; 
         }
 
         public IEnumerable<UserDto> GetAllUsers()
@@ -46,16 +48,19 @@ namespace autoFlexrentalBackend.Services
 
         public void AddUser(UserDto user)
         {
+            var hashedPassword = _utilities.encryptSHA256(user.PasswordHash);
+
             _context.Users.Add(new User
             {
                 UserId = user.UserId,
                 FullName = user.FullName,
                 Email = user.Email,
                 PhoneNumber = user.PhoneNumber,
-                PasswordHash = user.PasswordHash,
+                PasswordHash = hashedPassword,  // Save the hashed password
                 Role = user.Role,
                 CreatedAt = DateTime.Now
             });
+
             _context.SaveChanges();
         }
 
@@ -64,13 +69,19 @@ namespace autoFlexrentalBackend.Services
             var existingUser = _context.Users.Find(user.UserId);
             if (existingUser == null) return;
 
+            // Only hash the password if it's provided and different
+            if (!string.IsNullOrEmpty(user.PasswordHash) && user.PasswordHash != existingUser.PasswordHash)
+            {
+                existingUser.PasswordHash = _utilities.encryptSHA256(user.PasswordHash);  // Hash the new password
+            }
+
             existingUser.FullName = user.FullName;
             existingUser.Email = user.Email;
             existingUser.PhoneNumber = user.PhoneNumber;
-            existingUser.PasswordHash = user.PasswordHash;
             existingUser.Role = user.Role;
             _context.SaveChanges();
         }
+        
 
         public void DeleteUser(UserDto user)
         {
