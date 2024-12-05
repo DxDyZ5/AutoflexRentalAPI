@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("autoFlexrentalBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ef5212ec73c41cf96427485b120b93aecd95bbf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db80eab0446ee52b1fed8325e2333de189fdb857")]
 [assembly: System.Reflection.AssemblyProductAttribute("autoFlexrentalBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("autoFlexrentalBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,7 @@
 ﻿using autoFlexrentalBackend.DTO;
 using autoFlexrentalBackend.Interfaces;
 using autoFlexrentalBackend.Models;
+using System.Linq;
 
 namespace autoFlexrentalBackend.Services
 {
@@ -12,6 +13,7 @@ namespace autoFlexrentalBackend.Services
         {
             _context = context;
         }
+
         public IEnumerable<VehicleDto> SearchVehicles(string? brand = null, string? model = null, decimal? minPrice = null, decimal? maxPrice = null)
         {
             var query = _context.Vehicles.AsQueryable();
@@ -45,12 +47,10 @@ namespace autoFlexrentalBackend.Services
                 VehicleId = v.VehicleId,
                 Brand = v.Brand,
                 Model = v.Model,
-                DailyPrice = v.DailyPrice, 
-                Availability = v.Availability,
+                DailyPrice = v.DailyPrice,
+                Availability = v.Availability.GetValueOrDefault(false),  // Default to false if Availability is null
                 ImageUrl = v.ImageUrl,
-                CreatedAt = v.CreatedAt
             }).ToList();
         }
     }
-}   
-
+}

@@ -4,7 +4,57 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bfe9311-bbe6-46f1-98c8-638e60f06129" name="Changes" comment="" />
+    <list default="true" id="3bfe9311-bbe6-46f1-98c8-638e60f06129" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/autoflexrentalbackend.metadata.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/autoflexrentalbackend.metadata.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/autoflexrentalbackend.projects.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/autoflexrentalbackend.projects.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/autoflexrentalbackend.strings.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/autoflexrentalbackend.strings.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/FileContentIndex/19f35a09-2303-40ac-8b87-ac82307bc43b.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/FileContentIndex/670d12fe-fea7-4a27-8413-884a55a2584a.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/FileContentIndex/7e5ceafe-3ae3-46c4-abfe-b160af957844.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/FileContentIndex/8a659e4f-3ac3-4349-a8d7-8f35c3011e44.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/FileContentIndex/c00d2614-7c9a-483b-8e68-9e6724769904.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/autoFlexrentalBackend/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoFlexRentalQUERY.sql" beforeDir="false" afterPath="$PROJECT_DIR$/AutoFlexRentalQUERY.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/Controllers/AutoflexRentalController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/Controllers/AutoflexRentalController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/DTO/ReservationDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/DTO/ReservationDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/DTO/UserDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/DTO/UserDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/DTO/VehicleDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/DTO/VehicleDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/Interfaces/IAutoflexRentalService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/Interfaces/IAutoflexRentalService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/Models/AutoFlexRentalContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/Models/AutoFlexRentalContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/Models/Reservation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/Models/Reservation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/Models/Vehicle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/Models/Vehicle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/Services/AutoflexRentalService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/Services/AutoflexRentalService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/autoFlexrentalBackend.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/autoFlexrentalBackend.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/bin/Debug/net8.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/bin/Debug/net8.0/autoFlexrentalBackend.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/bin/Debug/net8.0/autoFlexrentalBackend.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/bin/Debug/net8.0/autoFlexrentalBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/bin/Debug/net8.0/autoFlexrentalBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/bin/Debug/net8.0/autoFlexrentalBackend.exe" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/bin/Debug/net8.0/autoFlexrentalBackend.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/bin/Debug/net8.0/autoFlexrentalBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/bin/Debug/net8.0/autoFlexrentalBackend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/ApiEndpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/ApiEndpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/EndpointInfo/autoFlexrentalBackend.json" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/EndpointInfo/autoFlexrentalBackend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/autoFlexrentalBackend.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/ref/autoFlexrentalBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/ref/autoFlexrentalBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/refint/autoFlexrentalBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/Debug/net8.0/refint/autoFlexrentalBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/autoFlexrentalBackend.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/autoFlexrentalBackend.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoFlexrentalBackend/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/autoFlexrentalBackend/obj/project.nuget.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,27 +66,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2pYFQHPoKs3rLMwrvrvawCnafsk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -404,6 +404,7 @@ C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\bin\Debug\net8
 C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\bin\Debug\net8.0\autoFlexrentalBackend.pdb
 C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -668,7 +669,6 @@ C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\obj\Debug\net8
 C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.autoFlexrentalBackend.props
 C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.autoFlexrentalBackend.props
 C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\obj\Debug\net8.0\autoFlex.26AB7ADE.Up2Date
 C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\obj\Debug\net8.0\autoFlexrentalBackend.dll
 C:\Users\Andy G\Downloads\AutoflexRentalAPI\autoFlexrentalBackend\obj\Debug\net8.0\refint\autoFlexrentalBackend.dll

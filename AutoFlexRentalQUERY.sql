@@ -1,5 +1,4 @@
--- Crear la base de datos
-CREATE DATABASE AutoFlexRental;
+ï»¿CREATE DATABASE AutoFlexRental;
 GO
 
 USE AutoFlexRental;
@@ -18,7 +17,7 @@ CREATE TABLE Users (
 select * from users
 GO
 
--- Tabla de Vehículos
+-- Tabla de Vehï¿½culos
 CREATE TABLE Vehicles (
     VehicleID INT IDENTITY(1,1) PRIMARY KEY,
     Brand NVARCHAR(50) NOT NULL,
@@ -65,7 +64,7 @@ CREATE TABLE Notifications (
     NotificationID INT IDENTITY(1,1) PRIMARY KEY,
     UserID INT NOT NULL FOREIGN KEY REFERENCES Users(UserID),
     Content NVARCHAR(255) NOT NULL,
-    IsRead BIT DEFAULT 0, -- 0: No leído, 1: Leído
+    IsRead BIT DEFAULT 0, -- 0: No leï¿½do, 1: Leï¿½do
     CreatedAt DATETIME DEFAULT GETDATE()
 );
 GO
@@ -79,8 +78,33 @@ CREATE TABLE ActivityLogs (
 );
 GO
 
--- Indices para optimización
+-- Indices para optimizaciï¿½n
 CREATE INDEX IDX_Vehicles_Availability ON Vehicles(Availability);
 CREATE INDEX IDX_Reservations_Status ON Reservations(Status);
 CREATE INDEX IDX_ContactMessages_Status ON ContactMessages(Status);
 GO
+
+
+
+ALTER TABLE Reservations 
+ALTER COLUMN StartDate DATETIME NOT NULL;
+
+ALTER TABLE Reservations 
+ALTER COLUMN EndDate DATETIME NOT NULL;
+
+ALTER TABLE Reservations 
+ADD Extras NVARCHAR(255) NULL; -- Ajusta la longitud segÃºn sea necesario
+
+
+
+ALTER TABLE Notifications 
+ADD Type NVARCHAR(50) NOT NULL DEFAULT 'General';
+
+
+ALTER TABLE Reservations 
+ADD CONSTRAINT CHK_Reservations_ValidDates 
+CHECK (StartDate <= EndDate);
+
+ALTER TABLE Vehicles ADD Category NVARCHAR(50);
+
+

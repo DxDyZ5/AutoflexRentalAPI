@@ -1,29 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace autoFlexrentalBackend.Models;
 
-public partial class Reservation
+public class Reservation
 {
-    public int ReservationId { get; set; }
+    [Key]
+    public int ReservationId { get; set; } // Identificador único de la reserva
 
-    public int UserId { get; set; }
+    [ForeignKey("User")]
+    public int UserId { get; set; } // Clave foránea al usuario
+    public virtual User User { get; set; } // Propiedad de navegación hacia User
 
-    public int VehicleId { get; set; }
+    [ForeignKey("Vehicle")]
+    public int VehicleId { get; set; } // Clave foránea al vehículo
+    public virtual Vehicle Vehicle { get; set; } // Propiedad de navegación hacia Vehicle
 
-    public DateTime StartDate { get; set; }
+    [Required]
+    public DateTime StartDate { get; set; } // Fecha de inicio de la reserva
 
-    public DateTime EndDate { get; set; }
+    [Required]
+    public DateTime EndDate { get; set; } // Fecha de fin de la reserva
 
-    public decimal TotalPrice { get; set; }
+    [Required]
+    [Column(TypeName = "decimal(10, 2)")]
+    public decimal TotalPrice { get; set; } // Precio total de la reserva
 
-    public string? Status { get; set; }
+    [Required]
+    [MaxLength(50)]
+    public string Status { get; set; } = "Pending"; // Estado de la reserva
 
-    public string? Extras { get; set; } 
+    [MaxLength(255)]
+    public string Extras { get; set; } // Información adicional
 
-    public DateTime? CreatedAt { get; set; }
-
-    public virtual User User { get; set; } = null!;
-
-    public virtual Vehicle Vehicle { get; set; } = null!;
+    [Required]
+    public DateTime CreatedAt { get; set; } = DateTime.Now; // Fecha de creación
 }

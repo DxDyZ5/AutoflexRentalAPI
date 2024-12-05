@@ -5,7 +5,7 @@ namespace autoFlexrentalBackend.Models;
 
 public partial class ActivityLog
 {
-    public int LogId { get; set; }
+    public int LogId { get; set; }  // Clave primaria
 
     public int? UserId { get; set; }
 

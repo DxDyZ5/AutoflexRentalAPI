@@ -6,7 +6,7 @@ namespace autoFlexrentalBackend.Controllers
 {
     [ApiController]
     [Route("api/CRUD")]
-    public class AutoflexRentalController : Controller
+    public class AutoflexRentalController : ControllerBase
     {
         private readonly IAutoflexRentalService _service;
 
@@ -15,7 +15,7 @@ namespace autoFlexrentalBackend.Controllers
             _service = service;
         }
 
-        // Users
+        // Usuarios
         [HttpGet("users")]
         public IActionResult GetUserList()
         {
@@ -26,11 +26,7 @@ namespace autoFlexrentalBackend.Controllers
         public IActionResult GetUserById(int id)
         {
             var user = _service.GetUserById(id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-            return Ok(user);
+            return user == null ? NotFound() : Ok(user);
         }
 
         [HttpPost("users")]
@@ -43,11 +39,9 @@ namespace autoFlexrentalBackend.Controllers
         [HttpPut("users/{id}")]
         public IActionResult UpdateUser(int id, [FromBody] UserDto user)
         {
-            var existingUser = _service.GetUserById(id);
-            if (existingUser == null)
-            {
+            if (_service.GetUserById(id) == null)
                 return NotFound();
-            }
+
             user.UserId = id;
             _service.UpdateUser(user);
             return Ok(user);
@@ -58,29 +52,32 @@ namespace autoFlexrentalBackend.Controllers
         {
             var user = _service.GetUserById(id);
             if (user == null)
-            {
                 return NotFound();
-            }
+
             _service.DeleteUser(user);
             return NoContent();
         }
 
-        // Vehicles
         [HttpGet("vehicles")]
-        public IActionResult GetVehicleList()
+        public async Task<IActionResult> GetVehicleList()
         {
-            return Ok(_service.GetAllVehicles());
+            try
+            {
+                var vehicles = await _service.GetAllVehicles();  // Esperamos que la tarea se complete
+                return Ok(vehicles);  // Regresamos el resultado de la tarea (no la tarea misma)
+            }
+            catch (Exception ex)
+            {
+                // Manejo de errores, si es necesario
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
         [HttpGet("vehicles/{id}")]
         public IActionResult GetVehicleById(int id)
         {
             var vehicle = _service.GetVehicleById(id);
-            if (vehicle == null)
-            {
-                return NotFound();
-            }
-            return Ok(vehicle);
+            return vehicle == null ? NotFound() : Ok(vehicle);
         }
 
         [HttpPost("vehicles")]
@@ -93,29 +90,34 @@ namespace autoFlexrentalBackend.Controllers
         [HttpPut("vehicles/{id}")]
         public IActionResult UpdateVehicle(int id, [FromBody] VehicleDto vehicle)
         {
-            var existingVehicle = _service.GetVehicleById(id);
-            if (existingVehicle == null)
-            {
+            if (_service.GetVehicleById(id) == null)
                 return NotFound();
-            }
+
             vehicle.VehicleId = id;
             _service.UpdateVehicle(vehicle);
             return Ok(vehicle);
         }
 
-        [HttpDelete("vehicles/{id}")]
-        public IActionResult DeleteVehicle(int id)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteVehicle(int id)
         {
-            var vehicle = _service.GetVehicleById(id);
-            if (vehicle == null)
+            try
             {
-                return NotFound();
+                // Pasa el ID (int) en lugar del objeto completo VehicleDto
+                await _service.DeleteVehicle(id);
+                return NoContent();  // 204 No Content: Eliminación exitosa sin cuerpo
             }
-            _service.DeleteVehicle(vehicle);
-            return NoContent();
+            catch (InvalidOperationException ex)
+            {
+                return NotFound(ex.Message);  // 404 Not Found si el vehículo no existe
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Error al eliminar el vehículo: {ex.Message}");  // 400 BadRequest en caso de otros errores
+            }
         }
 
-        // Reservations
+        // Reservas
         [HttpGet("reservations")]
         public IActionResult GetReservationList()
         {
@@ -126,46 +128,42 @@ namespace autoFlexrentalBackend.Controllers
         public IActionResult GetReservationById(int id)
         {
             var reservation = _service.GetReservationById(id);
-            if (reservation == null)
-            {
-                return NotFound();
-            }
-            return Ok(reservation);
+            return reservation == null ? NotFound() : Ok(reservation);
         }
 
         [HttpPost("reservations")]
         public IActionResult AddReservation([FromBody] ReservationDto reservation)
         {
             _service.AddReservation(reservation);
+            _service.NotifyUser(reservation.UserId, "Reservation created successfully.", "Reservation Created");
             return CreatedAtAction(nameof(GetReservationById), new { id = reservation.ReservationId }, reservation);
         }
 
         [HttpPut("reservations/{id}")]
         public IActionResult UpdateReservation(int id, [FromBody] ReservationDto reservation)
         {
-            var existingReservation = _service.GetReservationById(id);
-            if (existingReservation == null)
-            {
+            if (_service.GetReservationById(id) == null)
                 return NotFound();
-            }
+
             reservation.ReservationId = id;
             _service.UpdateReservation(reservation);
+            _service.NotifyUser(reservation.UserId, "Reservation updated successfully.", "Reservation Updated");
             return Ok(reservation);
         }
 
         [HttpDelete("reservations/{id}")]
-        public IActionResult DeleteReservation(int id)
+        public IActionResult CancelReservation(int id)
         {
             var reservation = _service.GetReservationById(id);
             if (reservation == null)
-            {
                 return NotFound();
-            }
-            _service.DeleteReservation(reservation);
+
+            _service.CancelReservation(id);
+            _service.NotifyUser(reservation.UserId, "Reservation cancelled successfully.", "Reservation Cancelled");
             return NoContent();
         }
 
-        // Contact Messages
+        // Mensajes de contacto
         [HttpGet("contactMessages")]
         public IActionResult GetContactMessageList()
         {
@@ -176,11 +174,7 @@ namespace autoFlexrentalBackend.Controllers
         public IActionResult GetContactMessageById(int id)
         {
             var message = _service.GetContactMessageById(id);
-            if (message == null)
-            {
-                return NotFound();
-            }
-            return Ok(message);
+            return message == null ? NotFound() : Ok(message);
         }
 
         [HttpPost("contactMessages")]
@@ -193,11 +187,9 @@ namespace autoFlexrentalBackend.Controllers
         [HttpPut("contactMessages/{id}")]
         public IActionResult UpdateContactMessage(int id, [FromBody] ContactMessageDto message)
         {
-            var existingMessage = _service.GetContactMessageById(id);
-            if (existingMessage == null)
-            {
+            if (_service.GetContactMessageById(id) == null)
                 return NotFound();
-            }
+
             message.MessageId = id;
             _service.UpdateContactMessage(message);
             return Ok(message);
@@ -208,9 +200,8 @@ namespace autoFlexrentalBackend.Controllers
         {
             var message = _service.GetContactMessageById(id);
             if (message == null)
-            {
                 return NotFound();
-            }
+
             _service.DeleteContactMessage(message);
             return NoContent();
         }
@@ -219,55 +210,42 @@ namespace autoFlexrentalBackend.Controllers
         [HttpGet("whyChooseUs")]
         public IActionResult GetWhyChooseUsList()
         {
-            var items = _service.GetAllWhyChooseUsItems();
-            return Ok(items);
+            return Ok(_service.GetAllWhyChooseUsItems());
         }
 
         [HttpGet("whyChooseUs/{id}")]
         public IActionResult GetWhyChooseUsById(int id)
         {
             var item = _service.GetWhyChooseUsById(id);
-            if (item == null)
-            {
-                return NotFound();
-            }
-            return Ok(item);
+            return item == null ? NotFound() : Ok(item);
         }
 
         [HttpPost("whyChooseUs")]
-        public IActionResult AddWhyChooseUs([FromBody] WhyChooseUsDto itemDto)
+        public IActionResult AddWhyChooseUs([FromBody] WhyChooseUsDto item)
         {
-            var createdItem = _service.AddWhyChooseUsItem(itemDto);
+            var createdItem = _service.AddWhyChooseUsItem(item);
             return CreatedAtAction(nameof(GetWhyChooseUsById), new { id = createdItem.Id }, createdItem);
         }
 
         [HttpPut("whyChooseUs/{id}")]
-        public IActionResult UpdateWhyChooseUs(int id, [FromBody] WhyChooseUsDto itemDto)
+        public IActionResult UpdateWhyChooseUs(int id, [FromBody] WhyChooseUsDto item)
         {
-            var existingItem = _service.GetWhyChooseUsById(id);
-            if (existingItem == null)
-            {
+            if (_service.GetWhyChooseUsById(id) == null)
                 return NotFound();
-            }
 
-            itemDto.Id = id;
-            _service.UpdateWhyChooseUsItem(itemDto);
-            return Ok(itemDto);
+            item.Id = id;
+            _service.UpdateWhyChooseUsItem(item);
+            return Ok(item);
         }
 
         [HttpDelete("whyChooseUs/{id}")]
         public IActionResult DeleteWhyChooseUs(int id)
         {
-            var item = _service.GetWhyChooseUsById(id);
-            if (item == null)
-            {
+            if (_service.GetWhyChooseUsById(id) == null)
                 return NotFound();
-            }
 
             _service.DeleteWhyChooseUsItem(id);
             return NoContent();
         }
-
     }
 }
-    

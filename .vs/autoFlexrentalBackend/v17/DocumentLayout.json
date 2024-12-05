@@ -3,20 +3,128 @@
   "WorkspaceRootPath": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\services\\autoflexrentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\services\\autoflexrentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\services\\vehiclesearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\services\\vehiclesearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\models\\autoflexrentalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\models\\autoflexrentalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\models\\economy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\models\\economy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\controllers\\autoflexrentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\autoflexrentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\interfaces\\iautoflexrentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\interfaces\\iautoflexrentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\dto\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\dto\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\controllers\\testconnectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\testconnectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\models\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\dto\\contactmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\dto\\contactmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\models\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\models\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\autoflexrentalbackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\autoflexrentalbackend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\controllers\\analysiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\analysiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\controllers\\autoflexrentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\autoflexrentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\controllers\\economycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\controllers\\economycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|c:\\users\\andy g\\downloads\\autoflexrentalapi\\autoflexrentalbackend\\dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0909B497-9D79-4E87-A6FE-C4A8E4E7DDB6}|autoFlexrentalBackend\\autoFlexrentalBackend.csproj|solutionrelative:autoflexrentalbackend\\dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +134,389 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Notification.cs",
-              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\Notification.cs",
-              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Notification.cs",
-              "RelativeToolTip": "autoFlexrentalBackend\\Models\\Notification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AutoflexRentalService.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Services\\AutoflexRentalService.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Services\\AutoflexRentalService.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Services\\AutoflexRentalService.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Services\\AutoflexRentalService.cs",
+              "ViewState": "AgIAAPABAAAAAAAAAAA3wBECAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T03:15:26.39Z",
+              "WhenOpened": "2024-11-30T21:30:56.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Reservation.cs",
-              "RelativeToolTip": "autoFlexrentalBackend\\Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "VehicleSearchService.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Services\\VehicleSearchService.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Services\\VehicleSearchService.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Services\\VehicleSearchService.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Services\\VehicleSearchService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T03:15:01.957Z",
+              "WhenOpened": "2024-11-30T21:58:16.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ReservationDto.cs",
-              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\ReservationDto.cs",
-              "RelativeDocumentMoniker": "autoFlexrentalBackend\\DTO\\ReservationDto.cs",
-              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\ReservationDto.cs",
-              "RelativeToolTip": "autoFlexrentalBackend\\DTO\\ReservationDto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Title": "AutoFlexRentalContext.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\AutoFlexRentalContext.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\AutoFlexRentalContext.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\AutoFlexRentalContext.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Models\\AutoFlexRentalContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA6wCkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T03:04:00.409Z",
+              "WhenOpened": "2024-11-30T22:59:38.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Economy.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Economy.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\Economy.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Economy.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Models\\Economy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:17:30.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\VehicleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:19:57.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AutoflexRentalController.cs",
               "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
               "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
               "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
               "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\AutoflexRentalController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAswFAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAANsAAAAAAAAAAAAlwPsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T23:05:19.73Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAutoflexRentalService.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Interfaces\\IAutoflexRentalService.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Interfaces\\IAutoflexRentalService.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Interfaces\\IAutoflexRentalService.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Interfaces\\IAutoflexRentalService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T21:47:28.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:23:38.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:22:58.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T02:33:19.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\DTO\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\UserDto.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\DTO\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T21:07:58.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VehicleDto.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\VehicleDto.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\DTO\\VehicleDto.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\VehicleDto.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\DTO\\VehicleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T21:09:27.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Program.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Program.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:24:06.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Vehicle.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Models\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:26:56.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TestConnectionController.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\TestConnectionController.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\TestConnectionController.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\TestConnectionController.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\TestConnectionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:36:55.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\appsettings.json",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\appsettings.json",
+              "RelativeToolTip": "autoFlexrentalBackend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T06:26:08.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\TestController.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:14:22.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAlwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T02:36:14.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Category.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T02:44:41.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ContactMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\ContactMessage.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\ContactMessage.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\ContactMessage.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Models\\ContactMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T22:22:13.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ContactMessageDto.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\ContactMessageDto.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\DTO\\ContactMessageDto.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\ContactMessageDto.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\DTO\\ContactMessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T22:23:53.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ActivityLog.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\ActivityLog.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\ActivityLog.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\ActivityLog.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Models\\ActivityLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T06:43:04.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "autoFlexrentalBackend.http",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\autoFlexrentalBackend.http",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\autoFlexrentalBackend.http",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\autoFlexrentalBackend.http",
+              "RelativeToolTip": "autoFlexrentalBackend\\autoFlexrentalBackend.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-30T22:58:32.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\LoginDto.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\DTO\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\LoginDto.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\DTO\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T07:24:33.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T07:27:41.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Notification.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:15:26.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AnalysisController.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\AnalysisController.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\AnalysisController.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\AnalysisController.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\AnalysisController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:22:32.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\User.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:18:59.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EconomyController.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\EconomyController.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Controllers\\EconomyController.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Controllers\\EconomyController.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Controllers\\EconomyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T23:17:59.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\Models\\Reservation.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\Models\\Reservation.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:15:01.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ReservationDto.cs",
+              "DocumentMoniker": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\ReservationDto.cs",
+              "RelativeDocumentMoniker": "autoFlexrentalBackend\\DTO\\ReservationDto.cs",
+              "ToolTip": "C:\\Users\\Andy G\\Downloads\\AutoflexRentalAPI\\autoFlexrentalBackend\\DTO\\ReservationDto.cs",
+              "RelativeToolTip": "autoFlexrentalBackend\\DTO\\ReservationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:04:00.409Z"
             }
           ]
         }
